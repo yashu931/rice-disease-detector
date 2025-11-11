@@ -50,7 +50,7 @@ run inference locally, and host a minimal Flask web interface for image upload +
 - `app.py`: Flask app with upload UI + Grad-CAM endpoint.
 - `gradcam.py`: helper to compute Grad-CAM heatmaps and overlay them.
 - `utils.py`: preprocessing helpers.
-- `requirements.txt`: recommended pip packages.
+- `requirements.txt`: recommended pip packages..
 
 ## Notes & troubleshooting
 - If GPU usage is desired, install proper CUDA/CuDNN and matching TensorFlow GPU build.
