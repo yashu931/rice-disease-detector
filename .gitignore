@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+venv*/
+*.pyc
+uploads/
+.env
+
+# Models (optional if large)
+*.h5
+*.ckpt
+
+# Node
+node_modules/
+rice-frontend/node_modules/
+dist/
+rice-frontend/dist/
+
+# OS files
+.DS_Store
+Thumbs.db

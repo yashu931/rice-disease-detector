@@ -1,0 +1,12 @@
+<!doctype html>
+<html>
+<head><meta charset='utf-8'><title>Rice Leaf Disease Detector</title></head>
+<body>
+<h2>Rice Leaf Disease Detector</h2>
+<form action="/upload" method="post" enctype="multipart/form-data">
+    <input type="file" name="file" accept="image/*">
+    <button type="submit">Upload & Predict</button>
+</form>
+<p>Make sure you have trained the model and `models/rice_model.h5` exists.</p>
+</body>
+</html>
